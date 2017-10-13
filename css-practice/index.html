@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors Pracitce</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Make Stuff<br>Great Again</h1>
+        <button id="menu-button" class="menu-button">MENU</button>
+        <nav class="nav hide-menu">
+            <ul class="menu-items">
+                <li class="menu-item menu-close" id="menu-close">CLOSE</li>
+                <li><a class="menu-item" href="#shop">Shop</a></li>
+                <li><a class="menu-item" href="#blog">Blog</a></li>
+                <li><a class="menu-item" href="#about">About</a></li>
+                <li><a class="menu-item" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="above-the-fold" id="above-the-fold">
+            <div class="card">
+                <button type="button">See Our Stuff!</button>
+                <p>We have the best stuff. People are saying they love our stuff. Our stuff is tremendous.</p>
+            </div>
+            <div class="card">
+                <button type="button">BUY Our Stuff!</button>
+                <p>We have the best stuff. People are saying they love our stuff. Our stuff is tremendous.</p>
+            </div>
+            <div class="card">
+                <button type="button">Learn About Our Stuff!</button>
+                <p>We have the best stuff. People are saying they love our stuff. Our stuff is tremendous.</p>
+            </div>
+        </section>
+        <section id="shop" class="shop">
+            <h2 class="section-header">Shop</h2>
+            <hr>
+            <div id="gallery" class="gallery">
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqjnXp5uz1dy09xmfx5aurj3AJdCnyATnrNbc75PVBph8rE5vZ" alt="picture of stuff">
+                    <figcaption>Favorite Paleo Meal.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/stuff.jpg" alt="picture of stuff">
+                    <figcaption>This image is fantastic.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/stuff.jpg" alt="picture of stuff">
+                    <figcaption>This image is fantastic.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/stuff.jpg" alt="picture of stuff">
+                    <figcaption>This image is fantastic.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/stuff.jpg" alt="picture of stuff">
+                    <figcaption>This image is fantastic.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/stuff.jpg" alt="picture of stuff">
+                    <figcaption>This image is fantastic.</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <h2 class="section-header">Blog</h2>
+            <hr>
+            <article class="blog-article">
+                <h3 class="article-title">Our Stuff Is Great</h3>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+            </article>
+            <article class="blog-article">
+                <h3 class="article-title">Our Stuff Is Tremendous</h3>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+            </article>
+            <article class="blog-article">
+                <h3 class="article-title">Everybody Is Saying They Love Our Stuff</h3>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+                <p>Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin
+                    words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. Lorem ipsum and other latin words. </p>
+            </article>
+        </section>
+        <section id="about" class="about">
+            <h2 class="section-header">About</h2>
+            <hr>
+            <p>It was a gloomy, Wednesday afternoon many generations ago when Jane Doe and John Smith had grown tired of all their stuff. All of their stuff was too complex and diverse. They missed the days when all their stuff was simple, predictable, and
+                comfortable.</p>
+            <p>Jane had the bigly idea to "make stuff great again" &reg;, like it used to be when she was younger. Then next day, Jane and John began creating what everybody knows today as "Make Stuff Great Again."</p>
+            <p>To learn about our stuff, please see our <a href="#shop">shop</a>, check out our <a href="#blog">blog</a>, or even <a href="#contact">contact us</a>.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-header">Contact</h2>
+            <hr>
+            <form action="index.html" method="post">
+                <input class="form-input" type="text" name="dest_email" value="makestuffgreatagain@email.com" style="display: none">
+                <input class="form-input" type="text" name="name" value="" placeholder="Your Name">
+                <input class="form-input" type="email" name="email" value="" placeholder="Email">
+                <div class="form-input">
+                    <input type="radio" name="gender" value="male"><label>Male</label>
+                    <input type="radio" name="gender" value="female"><label>Female</label>
+                </div>
+                <textarea class="form-input" name="message" rows="12" cols="28" placeholder="Your message..."></textarea>
+                <input class="form-input" type="submit" value="SEND">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <p>&copy; 2016 by Make Stuff Great Again &reg;.</p>
+        </address>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
