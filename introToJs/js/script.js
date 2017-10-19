@@ -80,7 +80,7 @@ for(var i=0; i<invoices.length; i++){
         <p>${invoices[i].companyName}</p>
         Date: <br>
         <p>${invoices[i].date}</p>
-        Order #: <br>
+        Order: <br>
         <p>${invoices[i].order}</p>
         Quantity: <br>
         <p>${invoices[i].quantity}</p>
