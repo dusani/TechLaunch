@@ -21,10 +21,11 @@ var totalMW = 0;
 
 while(totalGen > 0){
     if(currentGen < 5){
-        console.log("Generator #" + currentGen + " is on, adding 62 MW, for a total of " + currentGen*62 + " MW!");
+        console.log("Generator #" + currentGen + " is on, adding 62 MW, for a total of " + ((totalMW+1)* 62) + " MW!");
     } else {
-        console.log("Generator #" + currentGen + " is on, adding 124 MW, for a total of " + (currentGen-2)*124 + " MW!"); 
+        console.log("Generator #" + currentGen + " is on, adding 124 MW, for a total of " + ((totalMW-1)  * 124) + " MW!"); 
     }
     totalGen--;
     currentGen++;
+    totalMW++;
 }
