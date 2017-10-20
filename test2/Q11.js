@@ -4,5 +4,5 @@
 //
 // Then log ageIn5Years to the console.
 var age = 32;
-var ageIn5Years = age += 5;
+var ageIn5Years = age + 5;
 console.log(ageIn5Years);
