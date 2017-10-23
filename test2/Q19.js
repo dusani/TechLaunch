@@ -11,7 +11,7 @@
 function maxOf2(a, b){
     if(a > b){
         return a;
-    } else if(a == b){
+    } else if(a === b){
         return "equal";
     } else {
         return b
