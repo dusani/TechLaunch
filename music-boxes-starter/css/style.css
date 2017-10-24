@@ -1,0 +1,19 @@
+body {
+    text-align: center; 
+}
+
+#instrument {
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    height: 150px;
+    margin: 5px;
+    width: 50px;
+    border: 1px solid black;
+}
