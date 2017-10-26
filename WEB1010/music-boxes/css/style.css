@@ -1,5 +1,14 @@
 body {
-    text-align: center; 
+  background: #000; /* Change 1 */
+    text-align: center;
+    font-family: 'Russo One', sans-serif; /* Change 2 */
+    width: 100%;
+}
+
+.heading {
+  letter-spacing: 10px; /* Change 3 */
+  text-transform: uppercase; /* Change 4 */
+  color: white;
 }
 
 #instrument {
@@ -16,4 +25,70 @@ body {
     margin: 5px;
     width: 50px;
     border: 1px solid black;
+}
+
+/* Change 5 */
+.box:hover {
+  box-shadow: 3px 7px 15px white;
+}
+
+/* Change 6 */
+.box:active {
+    box-shadow: 2px 2px 10px white;
+}
+
+/* Change 7 */
+#c {
+  background: #8cc9ad;
+}
+#c:hover {
+  background: #38785a;
+}
+
+/* Change 8 */
+#d {
+  background: #ffeb9e;
+}
+#d:hover {
+  background: #f8c600;
+}
+
+/* Change 9 */
+#e {
+  background: #8edda3;
+}
+#e:hover {
+  background: #34A853;
+}
+
+/* Change 10 */
+#f {
+  background: #fbab8c;
+}
+#f:hover {
+  background: #F65314;
+}
+
+/* Change 11 */
+#g {
+  background: #c0ff43;
+}
+#g:hover {
+  background: #7CBB00;
+}
+
+/* Change 12 */
+#a {
+  background: #79d3ff;
+}
+#a:hover {
+  background: #00A1F1;
+}
+
+/* Change 13 */
+#b {
+  background: #f69994;
+}
+#b:hover {
+  background: #ED1C16;
 }
