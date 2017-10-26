@@ -1,0 +1,11 @@
+body{
+    background: #ffef96;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
