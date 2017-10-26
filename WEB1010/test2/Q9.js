@@ -7,5 +7,5 @@
 //
 // Then log countMessage to the console.
 var numPassengers = 2;
-var countMessage = "Attention: There are now " + numPassengers + " passengers on the train!";
-console.log(countMessage); 
+var countMessage = "Attention: There are now " + (numPassengers+=1) + " passengers on the train!";
+console.log(countMessage);
