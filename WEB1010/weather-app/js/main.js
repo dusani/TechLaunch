@@ -40,7 +40,7 @@ const groups = [
     background: "img/thunderstorm.jpg",
   },
   {
-    condition: "Cloudy",
+    condition: "Clouds",
     icon: "img/cloudy.png",
     background: "img/cloudy.jpg",
   },
